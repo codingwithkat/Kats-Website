@@ -1,0 +1,12 @@
+h3, p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 22px;
+}
+
+.catch-phrase {
+    font-weight: bold;
+}

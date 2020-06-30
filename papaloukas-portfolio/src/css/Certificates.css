@@ -1,0 +1,26 @@
+h2, .title, .certs {
+    text-align: center;
+}
+
+
+.completed-course-she{
+      width: 100%;
+      height: 85%;
+}
+
+.completed-course-sera{
+    width:100%;
+    height: 85%;
+}
+
+.completed-course-bitdegree {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.course-name, .course-name-bottom {
+    font-size: 18px;
+    text-align: center;
+    color: #ff2e63;
+    font-weight: bold;
+}

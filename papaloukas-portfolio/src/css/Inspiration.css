@@ -1,0 +1,47 @@
+@media only screen and (max-width: 500px){
+    .inspo-1, .inspo-2, .inspo-3, .inspo-4 {
+    text-align: center;
+}
+}
+
+@media only screen and (min-width:520px) {
+    .inspo-1, .inspo-2, .inspo-3, .inspo-4{
+    text-align: justify;
+}
+}
+
+
+.personal-photo {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.quote {
+    background-color: #111d5e;
+    color: #eeeeee;
+    border-radius: 30px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h2, p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #111d5e;
+}
+
+h2 {background-color: aliceblue;} 
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.inspo {
+    display: inline;
+}
+
+.container {
+    padding-top: 15px;
+}
+
