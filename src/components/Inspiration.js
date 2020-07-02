@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import katphoto from '../images/kat.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -12,7 +13,7 @@ export const Inspiration = () => (
         <Container className="container">
             <Row className="intro">
                 <Col xs={12} md={4}>
-                    <img src={katphoto} alt="photo of Kat" className="personal-photo" />
+                    <img src={katphoto} alt="Kat" className="personal-photo" />
                 </Col>
                 <Col xs={12} md={8}>
                     <p className="inspo-1">
@@ -32,7 +33,7 @@ export const Inspiration = () => (
             Over the years, my math skills had improved and I found myself thinking in much more logical terms as I tackled operations problems. The combination of skills I had amassed in the workforce, prepared me to make this pivot. I have taken a variety of courses and attended workshops to build my skills in this area. <strong> With every lesson and line of code, I know more than ever, that this is what I was meant to do.</strong>
         </p>
         <p className="conclusion">
-            I never thought my journey would take me in this direction, but I am so glad it did. <strong>From book worm to developer. 💫</strong>
+            I never thought my journey would take me in this direction, but I am so glad it did. <strong>From book worm to developer.<span>💫</span> </strong>
         </p>
 
     </div >

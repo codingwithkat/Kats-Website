@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import "../css/Home.css"
 import { Jumbotron } from "./Jumbotron";
@@ -6,7 +7,7 @@ import { Jumbotron } from "./Jumbotron";
 export const Home = () => (
     <div>
         <Jumbotron />
-        <h3><strong>📚 English Major turned Web Developer? 👩🏻‍💻</strong></h3>
+        <h3><strong><span>📚</span> English Major turned Web Developer? <span>👩🏻‍💻</span></strong></h3>
         <p className="catch-phrase"><em>Not as uncommon as you may think...</em></p>
         <p>
             Writing code and programming is not that far off from writing analytical essays. You need to be structured,
@@ -17,7 +18,7 @@ export const Home = () => (
             take a course online on HTML and the rest was history.
         </p>
         <p>
-            <strong>It was love at first 'site'...😉</strong>
+            <strong>It was love at first 'site'...<span>😉</span></strong>
         </p>
         <p>Almost immediately, I realized web design and learning how to code was something I wanted to invest my time
         into. Since April, I have spent a number of ours taking courses on <strong>HTML5, CSS3</strong> and <strong>JavaScript</strong>. I
