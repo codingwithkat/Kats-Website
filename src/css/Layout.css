@@ -1,0 +1,10 @@
+.container-layout {
+    min-height:100vh;
+    margin-bottom: 100px;
+}
+
+.container-layout:after {
+    content: "";
+    display: block;
+    height: -100px;
+}

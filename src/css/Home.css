@@ -1,6 +1,12 @@
+h3 {
+    font-size: 36px;
+}
+
+
 h3, p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: #ff2e63;
 }
 
 p {

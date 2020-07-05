@@ -1,7 +1,11 @@
 h2, .title, .certs {
     text-align: center;
+    font-size: 32px;
 }
 
+.title {
+    padding-bottom: 10px;
+}
 
 .completed-course-she{
       width: 100%;
@@ -14,13 +18,39 @@ h2, .title, .certs {
 }
 
 .completed-course-bitdegree {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
-.course-name, .course-name-bottom {
+.course-name, .course-name-bitdegree {
+    clear: both;
     font-size: 18px;
     text-align: center;
     color: #ff2e63;
     font-weight: bold;
+    line-height: 22px;
+    width: 100%;
 }
+
+img {
+    position: relative;
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px){
+    img {
+    padding-bottom: 30px;
+}
+}
+
+@media only screen and (min-width:600px) {
+ img {
+    padding-bottom: 0px;
+}
+}
+
+/* @media only screen and (min-width:900px) {
+ img {
+    padding-bottom: 0px;
+}
+} */

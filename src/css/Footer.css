@@ -1,6 +1,22 @@
 .footer {
-    padding: 15px;
+    padding-top: 30px;
+    height: 150px;
     background: aliceblue;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.fa-github {
+    color:#ff2e63;
+    font-size: 40px;
+}
+
+.fa-linkedin {
+    color: #111d5e;
+    font-size: 40px;
+}
+
+.copyright {
+    color:#ff2e63;
+    font-weight: bold;
 }
