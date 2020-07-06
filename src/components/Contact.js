@@ -9,7 +9,7 @@ import cafedesk from '../images/cafedesk.png';
 export const Contact = () => (
     <div className="contact-page">
 
-        <h1 className="contact-title"> <i className="fa-spin fas fa-mobile-alt"></i> Contact Information <i className="fa-spin fas fa-envelope-square"></i></h1>
+        <h1 className="contact-title"><i className="fa-spin fas fa-envelope-square"></i> Contact Information </h1>
         <Container>
             <Row className="contact-form">
                 <Col xs={12} md={6}>
@@ -24,3 +24,5 @@ export const Contact = () => (
         </Container>
     </div>
 );
+
+/* <i className="fa-spin fas fa-mobile-alt"></i>  */
