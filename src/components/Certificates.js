@@ -8,19 +8,29 @@ import InterJS from "../images/CourseraInteractivityJS.jpg";
 import IntroCSS from "../images/CourseraIntroCSS.jpg";
 import IntroHTML2 from "../images/CourseraIntroHTML.jpg";
 import IntroHTML1 from "../images/HTMLCertificateofCompletion.jpg";
+import WebCapstone from "../images/CourseraWebDesign.png";
+import WebSpecialization from "../images/CourseraSpecialization.png";
 
 export const Certificates = () => {
     return (
         <div>
             <Container>
                 <p className="title"> My <em>personalized</em> road to success!</p>
-
                 <Row className="certs">
                     <Col xs={12} md={12}>
-                        <container>
-                            <p className="course-name">Front End Development Workshop, Issued July 2020</p>
-                            <img src={ShePlus} alt="certificate" className="completed-course-she" />
-                        </container>
+                        <p className="course-name">
+                            Web Design for Everybody: Basics of Web Development and Coding Specialization, Issued July 2020</p>
+                        <img src={WebSpecialization} alt="certificate" className="completed-course-sera" />
+                    </Col>
+                    <Col xs={12} md={12}>
+                        <p className="course-name-cap">Web Design for Everybody Capstone, Issued July 2020</p>
+                        <img src={WebCapstone} alt="certificate" className="completed-course-sera" />
+                    </Col>
+                </Row>
+                <Row className="certs">
+                    <Col xs={12} md={12}>
+                        <p className="course-name">Front End Development Workshop, Issued July 2020</p>
+                        <img src={ShePlus} alt="certificate" className="completed-course-she" />
                     </Col>
                     <Col xs={12} md={12}>
                         <p className="course-name">Advanced Responsive Design,

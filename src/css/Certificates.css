@@ -22,7 +22,7 @@ h2, .title, .certs {
     margin: 0 auto;
 }
 
-.course-name, .course-name-bitdegree {
+.course-name, .course-name-bitdegree, .course-name-cap  {
     clear: both;
     font-size: 18px;
     text-align: center;
@@ -35,6 +35,10 @@ h2, .title, .certs {
 img {
     position: relative;
     width: 100%;
+}
+
+.course-name-cap {
+    padding-top: 12px;
 }
 
 @media only screen and (max-width: 500px){
