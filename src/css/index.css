@@ -24,11 +24,25 @@ iframe {
 }
 
 .fa-envelope-square, .fa-mobile-alt {
-  font-size: 80px;
+  font-size: 50px;
   color:#ff2e63
 }
 
 .fa-terminal, .fa-home {
   color:#ff2e63;
   font-size: 25px;
+}
+
+@media only screen and (max-width: 500px){
+    .fa-envelope-square, .fa-mobile-alt {
+  font-size: 20px;
+  color:#ff2e63
+}
+}
+
+@media only screen and (min-width:600px) {
+ .fa-envelope-square, .fa-mobile-alt {
+  font-size: 40px;
+  color:#ff2e63
+}
 }
