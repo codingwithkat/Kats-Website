@@ -7,6 +7,7 @@ import jumbocode from "../images/jumbocode.JPG";
 
 export const Home = () => (
     <div>
+        <h3><strong><span>📚</span> English Major turned Web Developer? <span>👩🏻‍💻</span></strong></h3>
         <Container>
             <Row>
                 <Col xs={12} md={12}>
@@ -14,7 +15,7 @@ export const Home = () => (
                 </Col>
             </Row>
         </Container>
-        <h3><strong><span>📚</span> English Major turned Web Developer? <span>👩🏻‍💻</span></strong></h3>
+
         <p className="catch-phrase"><em>Not as uncommon as you may think...</em></p>
         <p>
             Writing code and programming is not that far off from writing analytical essays. You need to be structured,
