@@ -2,6 +2,7 @@ import React from "react";
 import { Jumbotron as Jumbo, Container } from "react-bootstrap";
 import styled from "styled-components";
 import jumbocode from '../images/jumbocode.JPG';
+import "../css/Jumbotron.css";
 
 
 const Styles = styled.div`
@@ -13,7 +14,6 @@ const Styles = styled.div`
         position: relative;
         padding-top: 4px;
     }
-
 `;
 
 export const Jumbotron = () => (
