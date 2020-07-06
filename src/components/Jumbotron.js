@@ -4,13 +4,12 @@ import styled from "styled-components";
 import jumbocode from '../images/jumbocode.JPG';
 import "../css/Jumbotron.css";
 
-
 const Styles = styled.div`
     .jumbotron {
         background: url(${jumbocode}) no-repeat fixed bottom;
         background-size: cover;
         color: white;
-        height: 420px;
+        height: 450px;
         position: relative;
         padding-top: 4px;
     }
