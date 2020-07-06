@@ -1,12 +1,19 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
+import { Container, Row, Col } from 'react-bootstrap';
 import "../css/Home.css"
-import { Jumbotron } from "./Jumbotron";
+import jumbocode from "../images/jumbocode.JPG";
 
 
 export const Home = () => (
     <div>
-        <Jumbotron />
+        <Container>
+            <Row>
+                <Col xs={12} md={12}>
+                    <img src={jumbocode} alt="laptop" className="home-page-image" />
+                </Col>
+            </Row>
+        </Container>
         <h3><strong><span>📚</span> English Major turned Web Developer? <span>👩🏻‍💻</span></strong></h3>
         <p className="catch-phrase"><em>Not as uncommon as you may think...</em></p>
         <p>

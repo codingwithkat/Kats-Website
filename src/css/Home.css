@@ -1,5 +1,6 @@
 h3 {
     font-size: 36px;
+    padding-top: 15px;
 }
 
 
@@ -15,4 +16,22 @@ p {
 
 .catch-phrase {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 500px){
+    .home-page-image {
+        border-radius: 50%;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .home-page-image {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
 }
