@@ -29,7 +29,7 @@ export const Inspiration = () => (
                 These individuals took a risk and went after what they were passionate about; providing support to students in their respective communities. Many of the individuals I worked with, put everything on the line. Day in and day out, I watched them succeed and I knew that I could do the same. </p>
 
             <p className="inspo-4">
-                Over the years, my math skills had improved and I found myself thinking in much more logical terms as I tackled operations problems. The combination of skills I had amassed in the workforce, prepared me to make this pivot. I have taken a variety of courses and attended workshops to build my skills in this area. <strong> With every lesson and line of code, I know more than ever, that this is what I was meant to do.</strong>
+                Over the years, my math skills had improved and I found myself thinking in much more logical terms as I tackled operations problems. The combination of skills I have amassed in the workforce, prepared me to make this pivot. I have taken a variety of courses and attended workshops to build my skills in this area. <strong> With every lesson and line of code, I know more than ever, that this is what I was meant to do.</strong>
             </p>
             <p className="conclusion">
                 I never thought my journey would take me in this direction, but I am so glad it did. <strong>From book worm to developer.<span>💫</span> </strong>
