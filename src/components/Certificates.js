@@ -10,6 +10,7 @@ import IntroHTML2 from "../images/CourseraIntroHTML.jpg";
 import IntroHTML1 from "../images/HTMLCertificateofCompletion.jpg";
 import WebCapstone from "../images/CourseraWebDesign.png";
 import WebSpecialization from "../images/CourseraSpecialization.png";
+import SheCodesReact from "../images/SheCodesReact.png"
 
 export const Certificates = () => {
     return (
@@ -17,6 +18,14 @@ export const Certificates = () => {
             <Container>
                 <h1 className="title">Relevant Coursework Completed Online</h1>
                 <Row className="certs">
+                    <Col xs={12} md={12}>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">SheCodes React Development, Issued July 2020</h5>
+                            </div>
+                            <img class="card-img-top" src={SheCodesReact} alt="React Development Cert"></img>
+                        </div>
+                    </Col>
                     <Col xs={12} md={12}>
                         <div className="card">
                             <div className="card-body">
