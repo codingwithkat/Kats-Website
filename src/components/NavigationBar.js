@@ -19,7 +19,7 @@ const Styles = styled.div`
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
         font-size: 24px;
-        margin: 2px;
+        margin: 10px;
 
 
         &:hover{
