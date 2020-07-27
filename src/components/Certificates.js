@@ -11,6 +11,7 @@ import IntroHTML1 from "../images/HTMLCertificateofCompletion.jpg";
 import WebCapstone from "../images/CourseraWebDesign.png";
 import WebSpecialization from "../images/CourseraSpecialization.png";
 import SheCodesReact from "../images/SheCodesReact.png"
+import PennComp from "../images/UPennCompThink.jpg"
 
 export const Certificates = () => {
     return (
@@ -18,6 +19,14 @@ export const Certificates = () => {
             <Container>
                 <h1 className="title">Relevant Coursework Completed Online</h1>
                 <Row className="certs">
+                    <Col xs={12} md={12}>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Computational Thinking for Problem Solving, Issued July 2020</h5>
+                            </div>
+                            <img class="card-img-top" src={PennComp} alt="Penn Comp Thinking"></img>
+                        </div>
+                    </Col>
                     <Col xs={12} md={12}>
                         <div className="card">
                             <div className="card-body">
