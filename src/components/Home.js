@@ -31,7 +31,7 @@ export const Home = () => (
         <p>Almost immediately, I realized web design and learning how to code was something I wanted to invest my time
         into. Since April, I have spent a number of hours taking courses on <strong>HTML5, CSS3</strong> and <strong>JavaScript</strong>. I
         have been working on mini <strong>projects</strong>;
-        putting concepts into practice daily. This is the most alive I have ever felt. Day in and day out, I devote hours working on learning and getting better. This site is an example of those efforts--Feel free to look
+        putting concepts into practice daily. This is the most alive I have ever felt. Day in and day out, I devote hours working on learning and getting better. I am currently focusing on Python and JavaScript. This site is an example of those efforts--Feel free to look
           around! 🤓</p>
     </div>
 );
