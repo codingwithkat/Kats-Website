@@ -12,6 +12,7 @@ import WebCapstone from "../images/CourseraWebDesign.png";
 import WebSpecialization from "../images/CourseraSpecialization.png";
 import SheCodesReact from "../images/SheCodesReact.png"
 import PennComp from "../images/UPennCompThink.jpg"
+import LinAlg from "../images/LinAlg.jpg"
 
 export const Certificates = () => {
     return (
@@ -25,6 +26,14 @@ export const Certificates = () => {
                                 <h5 className="card-title">Computational Thinking for Problem Solving, Issued July 2020</h5>
                             </div>
                             <img class="card-img-top" src={PennComp} alt="Penn Comp Thinking"></img>
+                        </div>
+                    </Col>
+                    <Col xs={12} md={12}>
+                        <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Linear Algebra for Data Science and Machine learning in Python, Issued July 2020</h5>
+                            </div>
+                            <img class="card-img-top" src={LinAlg} alt="Udemy Python Lin Alg"></img>
                         </div>
                     </Col>
                     <Col xs={12} md={12}>
