@@ -8,7 +8,8 @@ import jumbocode from "../images/jumbocode.JPG";
 
 export const Home = () => (
     <div>
-        <h3><strong><span>📚</span> English Major turned Programmer? <span>👩🏻‍💻</span></strong></h3>
+        <h3><strong><span>📚</span> English Major turned Developer? <span>👩🏻‍💻</span></strong></h3>
+        <p className="catch-phrase"><em>Not as uncommon as you may think...</em></p>
         <Container>
             <Row>
                 <Col xs={12} md={12}>
@@ -16,8 +17,8 @@ export const Home = () => (
                 </Col>
             </Row>
         </Container>
-        <p className="catch-phrase"><em>Not as uncommon as you may think...</em></p>
-        <p>
+
+        <p className="intro">
             Writing code and programming is not that far off from writing analytical essays. You need to be structured,
             organized, creative and willing to spend time mastering your craft. I have spent the last 7 years in
             the Education Industry specifically focused on Business Operations in the Franchise world utilizing my communication skills. In April of 2020, I decided
