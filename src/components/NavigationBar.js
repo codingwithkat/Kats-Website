@@ -36,7 +36,7 @@ export const NavigationBar = () => (
     <Styles>
         <Navbar expand="lg" className="nav-style">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Brand href="/"><i className="fas fa-terminal"></i> Katerina Papaloukas</Navbar.Brand>
+            <Navbar.Brand href="/"><i className="fas fa-terminal"></i> Katerina Scoullos</Navbar.Brand>
 
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
