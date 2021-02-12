@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap';
-import "../css/Home.css"
+import { Carousel} from 'react-bootstrap';
+import "../css/Home.css";
 import jumbocode from "../images/jumbocode.JPG";
+import techstack from "../images/techstack.png";
 
 
 
@@ -10,13 +11,23 @@ export const Home = () => (
     <div>
         <h3><strong><span>📚</span> English Major turned Software Engineer? <span>👩🏻‍💻</span></strong></h3>
         <p className="catch-phrase"><em>Not as uncommon as you may think...</em></p>
-        <Container>
-            <Row>
-                <Col xs={12} md={12}>
-                    <img src={jumbocode} alt="laptop" className="home-page-image" />
-                </Col>
-            </Row>
-        </Container>
+        <Carousel>
+            <Carousel.Item interval={1000}>
+                <img
+                className="stack"
+                src={techstack}
+                alt="Tech Stack"
+                />
+                <Carousel.Caption>
+                <p>Javascript | Python | React | Express | Redux | Docker | Node | Postgres | Sequelize | Bootstrap | CSS | HTML5 | Fabric | Heroku | Netlify | HTML Canvas | Git | GitHub</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+            <img src={jumbocode} alt="laptop" className="home-page-image" />
+                <Carousel.Caption>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
 
         <p className="intro">
             Writing code and programming is not that far off from writing analytical essays. You need to be structured,
@@ -31,7 +42,7 @@ export const Home = () => (
         </p>
         <p>Almost immediately, I realized web design and learning how to code was something I wanted to invest my time
         into. Since April, I have spent a number of hours taking courses on <strong>HTML5, CSS3</strong> and <strong>JavaScript</strong>. I am currently attending the Grace Hopper Program through Fullstack Academy and will be graduating February 2021! I
-        have been working on mini <strong>projects</strong>;
+        have been working on <strong>projects</strong>;
         putting concepts into practice daily. This site is an example of those efforts--Feel free to look
           around! 🤓</p>
     </div>
