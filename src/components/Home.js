@@ -3,7 +3,7 @@ import React from "react";
 import { Carousel} from 'react-bootstrap';
 import "../css/Home.css";
 import jumbocode from "../images/jumbocode.JPG";
-import techstack from "../images/techstack.png";
+import TechStack1 from "../images/TechStack1.png";
 
 
 
@@ -15,12 +15,9 @@ export const Home = () => (
             <Carousel.Item interval={1000}>
                 <img
                 className="stack"
-                src={techstack}
+                src={TechStack1}
                 alt="Tech Stack"
                 />
-                <Carousel.Caption>
-                <p>Javascript | Python | React | Express | Redux | Docker | Node | Postgres | Sequelize | Bootstrap | CSS | HTML5 | Fabric | Heroku | Netlify | HTML Canvas | Git | GitHub</p>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
             <img src={jumbocode} alt="laptop" className="home-page-image" />
