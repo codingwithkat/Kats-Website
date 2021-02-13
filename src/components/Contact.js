@@ -3,9 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import "../css/index.css";
 import cafedesk from '../images/cafedesk.png';
 
-
-
-
 export const Contact = () => (
     <div className="contact-page">
 
@@ -23,12 +20,7 @@ export const Contact = () => (
                 <Col xs={12} md={6}>
                     <img src={cafedesk} alt="lady on a laptop" className="lady-coder" />
                 </Col>
-                {/* <Col xs={12} md={6}>
-                    <iframe title="contact form" src="https://docs.google.com/forms/d/e/1FAIpQLSd6MVWj_zVNETTuOz-cXCQWUBFy-gRCzytKSSjuvwzPsT7I1g/viewform?embedded=true" width="640" height="770" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </Col> */}
             </Row>
         </Container>
     </div>
 );
-
-/* <i className="fa-spin fas fa-mobile-alt"></i>  */

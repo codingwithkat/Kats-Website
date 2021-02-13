@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "../css/index.css";
+import resume from "../images/Resume.png";
 
 import styled from "styled-components";
 
@@ -42,6 +43,9 @@ export const NavigationBar = () => (
                 <Nav className="ml-auto">
                     <Nav.Item>
                         <Nav.Link href="/"><i className="fas fa-home"></i></Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href={resume} target="_blank">Resume</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/inspiration">Inspiration</Nav.Link>

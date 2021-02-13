@@ -10,9 +10,9 @@ import IntroHTML2 from "../images/CourseraIntroHTML.jpg";
 import IntroHTML1 from "../images/HTMLCertificateofCompletion.jpg";
 import WebCapstone from "../images/CourseraWebDesign.png";
 import WebSpecialization from "../images/CourseraSpecialization.png";
-import SheCodesReact from "../images/SheCodesReact.png"
-import PennComp from "../images/UPennCompThink.jpg"
-import LinAlg from "../images/LinAlg.jpg"
+import SheCodesReact from "../images/SheCodesReact.png";
+import PennComp from "../images/UPennCompThink.jpg";
+import LinAlg from "../images/LinAlg.jpg";
 
 export const Certificates = () => {
     return (
