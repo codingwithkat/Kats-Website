@@ -5,23 +5,12 @@ h1, p {
     color: #ff2e63;
 }
 
-/* .btn-primary {
-    color:#ff2e63;
-    background-color: #111d5e;
-    margin: 0 auto;
-}
-.btn-primary:hover {
-    color:#ff2e63;
-    background-color: #111d5e;
-    margin: 0 auto;
-} */
-
 .stack-info {
     color:#ff2e63;
     font-weight: lighter;
 }
 
-a {
+.proj-link {
     color:#111d5e;
     text-decoration: underline;
     font-size: 24px;
