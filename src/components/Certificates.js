@@ -13,6 +13,7 @@ import WebSpecialization from "../images/CourseraSpecialization.png";
 import SheCodesReact from "../images/SheCodesReact.png";
 import PennComp from "../images/UPennCompThink.jpg";
 import LinAlg from "../images/LinAlg.jpg";
+import KSGH from "../images/KSGH.png";
 
 export const Certificates = () => {
     return (
@@ -20,6 +21,14 @@ export const Certificates = () => {
             <Container>
                 <h1 className="title">Relevant Coursework Completed Online</h1>
                 <Row className="certs">
+                        <Col xs={12} md={12}>
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">Full Stack Web Development, Issued February 2021</h5>
+                                </div>
+                                <img class="card-img-top" src={KSGH} alt="Penn Comp Thinking"></img>
+                            </div>
+                        </Col>
                     <Col xs={12} md={12}>
                         <div className="card">
                             <div className="card-body">
