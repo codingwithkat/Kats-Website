@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
-import jumbocode from '../images/jumbocode.JPG';
 import { Container, Row, Col } from 'react-bootstrap';
 import "../css/Inspiration.css";
 
