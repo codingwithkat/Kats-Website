@@ -11,9 +11,6 @@ export const Inspiration = () => (
         <Container className="container">
             <Row className="intro">
                 <Col xs={12}>
-                    <img src={jumbocode} alt="computer" className="laptop"/>
-                </Col>
-                <Col xs={12}>
                     <p className="inspo-1">
                         Growing up, I knew I loved reading, writing and communicating with others.
                         Despite this, for years I wondered, <em>what was my true calling, my true passion?</em> <br />
@@ -24,13 +21,13 @@ export const Inspiration = () => (
                 </Col>
             </Row>
             <p className="inspo-3">
-                These individuals took a risk and went after what they were passionate about; providing support to students in their respective communities. Many of the individuals I worked with, put everything on the line. Day in and day out, I watched them succeed and I knew that I could do the same. </p>
+                That is why I decided to learn how to code and create web applications. I wanted to gain the necassary skills in order to better communicate with engineers, clients, stakeholders and other team members so I could take my previous experiences and combine them with my technical abilities. I can now sit in meetings and understand a variety of technologies and how they work, how they can better assist clients and how to make better products as a result!</p>
 
             <p className="inspo-4">
-                Over the years, my math skills had improved and I found myself thinking in much more logical terms as I tackled operations problems. The combination of skills I have amassed in the workforce, prepared me to make this pivot. I have taken a variety of courses and attended workshops to build my skills in this area. <strong> With every lesson and line of code, I know more than ever, that this is what I was meant to do.</strong>
+                My background in customer service and business operations make me a unique candidate on prodcut development teams. I have the ability to communicate well on cross functional teams and be the liasion between different departments. This skill set combined with my technical abilities will allow me to make an impact in technology by helping create better products for consumers! The combination of skills I have amassed in the workforce, prepared me to make this pivot. I have taken a variety of courses and attended workshops to build my skills in this area. <strong> With every lesson and line of code, I know more than ever, that this is what I was meant to do.</strong>
             </p>
             <p className="conclusion">
-                I never thought my journey would take me in this direction, but I am so glad it did. <strong>From book worm to developer.<span>💫</span> </strong>
+                I never thought my journey would take me in this direction, but I am so glad it did.<span>💫</span>
             </p>
         </Container>
     </div >
