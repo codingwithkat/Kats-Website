@@ -22,6 +22,8 @@ export const Projects = () => (
                 </p>
                 <a href="http://comicsans-app.herokuapp.com/" className="btn btn-primary">Comic Sans Website</a>
                 <a href="https://github.com/comic-sans-app/web-app" className="btn btn-primary">github</a>
+                <a href="https://www.youtube.com/watch?v=7QphsCTc4gA&list=PLx0iOsdUOUmnwv1vrUcoOhP736-omYGMN&index=7" className="btn btn-primary">YouTube</a>
+
             </div>
             </div>
         </div>

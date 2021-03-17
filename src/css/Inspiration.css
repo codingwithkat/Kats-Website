@@ -49,3 +49,7 @@ h3 {
     margin-right: auto;
     border-radius: 15px;
 }
+
+strong {
+    color: #ff2e63;
+}
