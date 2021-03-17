@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "../css/index.css";
-import resume from "../images/Resume.png";
+import resume from "../images/Resume.jpg";
 
 import styled from "styled-components";
 

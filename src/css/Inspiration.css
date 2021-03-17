@@ -10,18 +10,8 @@
 }
 }
 
-
-.personal-photo {
-    width: 100%;
-    border-radius: 30px;
-}
-
-.quote {
-    background-color: #111d5e;
-    color: #eeeeee;
-    border-radius: 30px;
-    font-size: 24px;
-    line-height: 28px;
+.inspo-1 {
+    padding-top: 10px;
 }
 
 h2, p {
@@ -29,7 +19,9 @@ h2, p {
     color: #111d5e;
 }
 
-h2 {background-color: aliceblue;} 
+h2 {
+    background-color: aliceblue;
+} 
 
 h2 {
     padding-top: 20px;
@@ -47,4 +39,13 @@ h2 {
 
 h3 {
     font-weight: bold;
+}
+
+.laptop {
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
 }

@@ -1,21 +1,19 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
-import katphoto from '../images/kat.jpg';
+import jumbocode from '../images/jumbocode.JPG';
 import { Container, Row, Col } from 'react-bootstrap';
 import "../css/Inspiration.css";
 
 
 export const Inspiration = () => (
     <div>
-        <h3> So how does an English Major/Business Consultant start Coding?</h3>
-        <p><em>I am glad you asked... </em></p>
-        <h2 className="quote">"A ship in port is safe, but that is not what ships are for. Sail out to sea and do new things." -Grace Hopper</h2>
+        <h3> What Inspired Me?</h3>
         <Container className="container">
             <Row className="intro">
-                <Col xs={12} md={4}>
-                    <img src={katphoto} alt="Kat" className="personal-photo" />
+                <Col xs={12}>
+                    <img src={jumbocode} alt="computer" className="laptop"/>
                 </Col>
-                <Col xs={12} md={8}>
+                <Col xs={12}>
                     <p className="inspo-1">
                         Growing up, I knew I loved reading, writing and communicating with others.
                         Despite this, for years I wondered, <em>what was my true calling, my true passion?</em> <br />

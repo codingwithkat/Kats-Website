@@ -19,7 +19,7 @@ export const Certificates = () => {
     return (
         <div>
             <Container>
-                <h1 className="title">Relevant Coursework Completed Online</h1>
+                <h1 className="title">Relevant Coursework</h1>
                 <Row className="certs">
                         <Col xs={12} md={12}>
                             <div className="card">
