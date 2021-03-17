@@ -15,3 +15,15 @@ h1, p {
     text-decoration: underline;
     font-size: 24px;
 }
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+   margin-top: 5px;
+   margin: 5px;
+   color: #ffffff;
+   background-color: #111d5e;
+}
+
